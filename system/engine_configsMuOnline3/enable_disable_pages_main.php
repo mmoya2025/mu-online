@@ -1,0 +1,33 @@
+<?php
+$mvcore['Login'] = "off";
+$mvcore['Account_Settings'] = "off";
+$mvcore['Banned_Players'] = "off";
+$mvcore['Character_View'] = "off";
+$mvcore['Downloads'] = "off";
+$mvcore['Exchange_System'] = "off";
+$mvcore['Friend_System'] = "off";
+$mvcore['Guild_View'] = "off";
+$mvcore['Hide_Information'] = "off";
+$mvcore['Lost_Password'] = "off";
+$mvcore['Lottery_System'] = "off";
+$mvcore['Market'] = "off";
+$mvcore['Market_Sold_Items'] = "off";
+$mvcore['News'] = "on";
+$mvcore['Payment_System'] = "off";
+$mvcore['Rankings'] = "off";
+$mvcore['Register'] = "on";
+$mvcore['Statistics'] = "off";
+$mvcore['Vote'] = "off";
+$mvcore['Warehouse'] = "off";
+$mvcore['Webshop'] = "off";
+$mvcore['Castle_Siege_Register'] = "off";
+$mvcore['Item_Upgrade_System'] = "off";
+$mvcore['Forum'] = "off";
+$mvcore['Gallery'] = "off";
+$mvcore['anon_sys'] = "off";
+$mvcore['GM_Buy'] = "off";
+$mvcore['Vip_Buy'] = "off";
+$mvcore['reg_rules'] = "off";
+$mvcore['My_Sponsor'] = "off";
+$mvcore['Scramble'] = "off";
+?>

@@ -1,0 +1,489 @@
+/* Hardcoded CSS */
+
+/* Basics */
+
+hr {
+ /* border: 0px;
+  height: 1px;
+  background-color: #a28052;*/
+}
+
+select {
+  font-family: Tahoma, Verdana;
+  font-size: 9px;
+  color: #CCCCCC;
+  border: 0px solid #CCCCCC;
+  background-color: #422911;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+td.fill {
+  background: url('images/table_title_bg.jpg');
+}
+
+/* Tooltips */
+
+.overlight {
+  color: #8a3235 !important;
+  background-color: #f3f1eb !important;
+  border: 1px solid #8a3235 !important;
+}
+
+#tooltip {
+  font-family: Arial;
+  font-size: 11px;
+  color: #e4d5c3;
+  background-color: #211000;
+  border: 1px solid #33201d;
+  position: absolute;
+  z-index: 3000;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+#tooltip h3, #tooltip div { margin: 0; font-size: 11px; font-weight: normal; }
+
+/* Gallery */
+
+span.count a * {
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.3;
+}
+
+span.count a:hover * {
+  filter: alpha(opacity=100);
+  -moz-opacity: 1.0;
+}
+
+a.opacity img {
+  /*border: 1px solid #a28052;*/
+  filter:alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+a.opacity:hover img {
+  /*border: 1px solid #a28052;*/
+  filter:alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+a.imgborder img {
+	border: 1px solid #453c3f;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+a.imgborder:hover img {
+	border: 1px solid #efcb90;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+	/*box-shadow: 2px 2px 10px rgba(191,54,0,0.5);*/
+}
+
+a.bad img {
+  filter:alpha(opacity=10);
+  -moz-opacity: 0.1;
+  -khtml-opacity: 0.1;
+  opacity: 0.1;
+
+}
+
+a.videoborder img {
+	border: 1px solid #453c3f;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+a.videoborder:hover img {
+	border: 1px solid #efcb90;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
+}
+
+.videobtn {
+	width: 153px;
+	height: 107px;
+	position: absolute;
+	background: url(images/videos/play_video_btn.png) center no-repeat;
+}
+
+.videobtn:hover {
+	background: url(images/videos/play_video_btn_h.png) center no-repeat;
+}
+
+table.navigation td {
+  text-align: center;
+  font-size: 15px;
+}
+
+table.navigation a {
+  color: #8a3235;
+  padding: 2px 6px;
+}
+
+table.navigation a:hover {
+  color: #3c66a2;
+  text-decoration: none;
+}
+
+div.upload {
+  padding: 0px;
+}
+
+div.upload table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div.upload table td {
+  padding: 10px;
+  color: #982;
+  border: 1px solid #a28052;
+}
+
+div.upload table td.title {
+  font-size: 10px;
+  padding: 3px;
+  color: #c2a275;
+}
+
+div.upload #realinputfile {
+  position: relative;
+  width: 385px;
+  height: 28px;
+  background: url(images/gallery/uploadbtn.png) no-repeat 100% 1px;
+  margin: 0px;
+}
+
+div.upload #realinputfile #real {
+  position: absolute;
+  opacity: 0.0;
+  -moz-opacity: 0.0;
+  filter: alpha(opacity=00);
+  font-size: 18px;
+  z-index: 0;
+}
+
+div.upload #fakeinputfile {
+  position: absolute;
+  z-index: 1;
+  margin-top: 1px;
+}
+
+div.upload #fakeinputfile #fake {
+  position: absolute;
+  width: 265px;
+  height: 25px;
+  padding: 2px;
+  color: #c2a275;
+  font-size: 17px;
+  font-family: Arial;
+}
+
+div.upload span.title {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+div.upload input.upload {  background-color: #211000;
+  width: 150px;
+  height: 25px;
+  color: #c2a275;
+  -webkit-box-shadow: 0 0 0 15px #211000 inset;
+  border: 1px solid #a28052;
+  text-align: center;
+  padding-bottom: 1px;
+  font-size: 15px;
+}
+
+div.upload input.upload_btn {  color: #c2a275;
+  background: #150a02;
+  width: 150px;
+  height: 25px;
+  border: 1px solid #a28052;
+  text-align: center;
+  padding-bottom: 1px;
+  font-size: 15px;
+}
+
+/* ThickBox box SMS Shop */
+
+/*.tb_loader {
+	position: absolute;
+	z-index: 10;
+	overflow: none;
+	padding: 10px;
+	background: url(../modules/smsshop/img/loader.gif) center no-repeat;
+	background-color: #211000;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	border: 1px solid #c2a275;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+}*/
+
+.tb_window {
+	position: absolute;
+	z-index: 10;
+	background-color: #150a02;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	border: 1px solid #c2a275;
+	text-align: left; 
+}
+
+.tb_window input {
+	background: #150a02;
+	border: 1px solid #33201d;
+	color: #c2a275;
+}
+
+.tb_content {
+	overflow: auto;
+	padding: 7px;
+	text-align: left;
+}
+
+.tb_content h3 {
+	color: #efcb90;
+}
+
+.tb_close {
+	/*width: 20px;*/
+	height: 20px;
+	/*float: right;*/
+	background: url(../modules/smsshop/img/arrow.gif) right top no-repeat;
+}
+
+/* SMS Shop */
+
+.smsshop_info u {
+	color: #e76a05;
+}
+
+table.smsshop_info {
+	color: #c2a275;
+}
+
+td.smsshop a { color: #c2a275; text-decoration: none; }
+td.smsshop a:hover { color: #c2a275; text-decoration: underline; }
+
+td.smsshop {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color: #d2c1a2;
+	background-color: #150a02;
+}
+
+/* Fancy box */
+
+html, body {
+  height: 100%;
+}
+
+div#fancy_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #666;
+  display: none;
+  z-index: 30;
+}
+
+* html div#fancy_overlay {
+  position: absolute;
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+div#fancy_wrap {
+  text-align: left;
+}
+
+div#fancy_outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  padding: 18px 18px 33px 18px;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  display: none;
+}
+
+div#fancy_inner {
+  position: relative;
+  width:100%;
+  height:100%;
+  border: 1px solid #a28052;
+  background: #211000;
+}
+
+div#fancy_content {
+  margin: 0;
+  z-index: 100;
+  position: absolute;
+}
+
+div#fancy_div {
+  background: #000;
+  color: #FFF;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+img#fancy_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+
+div#fancy_close {
+  position: absolute;
+  top: -12px;
+  right: -15px;
+  height: 30px;
+  width: 30px;
+  background: url('images/fancy/fancy_closebox.png') top left no-repeat;
+  cursor: pointer;
+  z-index: 181;
+  display: none;
+}
+
+#fancy_frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#fancy_ajax {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+a#fancy_left, a#fancy_right {
+  position: absolute;
+  bottom: 0px;
+  height: 100%;
+  width: 35%;
+  cursor: pointer;
+  z-index: 111;
+  display: none;
+  background-image: url(data:image/gif;base64,AAAA);
+  outline: none;
+}
+
+a#fancy_left {
+  left: 0px;
+}
+
+a#fancy_right {
+  right: 0px;
+}
+
+span.fancy_ico {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  z-index: 112;
+  cursor: pointer;
+  display: block;
+}
+
+span#fancy_left_ico {
+  left: 10px;
+  background: transparent url('images/fancy/fancy_left.png') no-repeat;
+}
+
+span#fancy_right_ico {
+  right: 10px;
+  background: transparent url('images/fancy/fancy_right.png') no-repeat;
+}
+
+a#fancy_left:hover {
+  visibility: visible;
+}
+
+a#fancy_right:hover {
+  visibility: visible;
+}
+
+a#fancy_left:hover span {
+  left: 10px;
+}
+
+a#fancy_right:hover span {
+  right: 10px;
+}
+
+.fancy_bigIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+div#fancy_bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 70;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+div.fancy_bg {
+  position: absolute;
+  display: block;
+  z-index: 70;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+div#fancy_title {
+  position: absolute;
+  bottom: -33px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+div#fancy_title div {
+  color: #FFF;
+  font: bold 12px Arial;
+  padding-bottom: 3px;
+}
+
+div#fancy_title table {
+  margin: 0 auto;
+}
+
+div#fancy_title table td {
+  padding: 0;
+  vertical-align: middle;
+}
